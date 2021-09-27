@@ -185,5 +185,240 @@ body {
 .photo-grid__item {
   /* outline: 1px dashed green; */
   max-width: 100%;
-  max-height: 100%;
+}
+
+
+
+
+  /* --------------- places --------------- */
+.places {
+  /* outline: 1px solid green; */
+  margin: auto;
+  margin-top: 12px;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.place {
+  /* outline: 1px dashed green; */
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.place__brief {
+
+}
+
+.place__main-text {
+  margin-left: 40px;
+}
+
+.place__title {
+  /* outline: 1px dashed green; */
+  margin: 0;
+  margin-bottom: 48px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__image {
+  /* outline: 1px dashed green; */
+  max-width: 460px;
+}
+
+.place__website {
+  /* outline: 1px dashed red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100% - 460px);
+}
+
+.place__url-heading {
+  /* outline: 1px dashed green; */
+  margin: 0;
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+}
+
+.place__link {
+  /* outline: 1px dashed red; */
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+
+.place__paragraph {
+  /* outline: 1px dashed green; */
+  margin: 0;
+  margin-bottom: 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%; 
+}
+
+
+
+
+  /* --------------- cover --------------- */
+/* .cover {
+  outline: 1px solid green;
+  margin: auto;
+  max-width: 1084px;
+  margin-top: 92px;
+}
+
+.cover__background {
+  outline: 1px solid green;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/cover-trains.jpg");
+  background-size: cover;
+  color: #FFFFFF;
+  text-decoration: none;
+  opacity: .8;
+}
+.cover__background:hover {
+  opacity: .3;
+}
+
+.cover__title {
+  outline: 1px dashed green;
+  max-width: 560px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+}
+
+.cover__subtitle {
+  outline: 1px dashed green;
+  max-width: 360px;
+  margin: 0;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+} */
+
+
+.cover {
+  /* outline: 1px solid green; */
+  margin: auto;
+  max-width: 1184px;
+  margin-top: 92px;
+  position: relative;
+}
+.cover__overlay {
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.cover__overlay:hover {
+  background-color: #000000;
+  opacity: .3;
+}
+
+.cover__title {
+  /* outline: 1px dashed green; */
+  max-width: 560px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+}
+
+.cover__subtitle {
+  /* outline: 1px dashed green; */
+  max-width: 360px;
+  margin: 0;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+.cover__background {
+  /* outline: 1px dashed green; */
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  opacity: .8;
+}
+
+  /* --------------- footer --------------- */
+
+.footer {
+  /* outline: 1px solid green; */
+  max-width: 1184px;
+  margin: auto;
+  margin-top: 92px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__navigation {
+  /* outline: 1px dashed green; */
+}
+
+.footer__links {
+  /* outline: 1px dashed green; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.footer__link {
+  /* outline: 1px dashed green; */
+  margin-right: 18px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.footer__copyright {
+  /* outline: 1px dashed green; */
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
 }
