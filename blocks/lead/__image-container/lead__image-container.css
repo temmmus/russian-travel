@@ -1,0 +1,7 @@
+.lead__image-container {
+    /* outline: 1px dashed blue; */
+    margin: 0;
+    margin-top: 64px;
+    display: flex;
+    flex-flow: column;
+  }
