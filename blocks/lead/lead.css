@@ -1,6 +1,11 @@
 .lead {
-    /* outline: 1px solid red; */
-    margin: auto;
-    margin-top: 56px;
-    max-width: 984px;
-  }  
+  margin: auto;
+  margin-top: 56px;
+  max-width: 984px;
+}  
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin-top: 48px;
+  }
+}   

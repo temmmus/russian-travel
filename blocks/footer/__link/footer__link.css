@@ -1,9 +1,18 @@
 .footer__link {
-    margin-right: 18px;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    color: #FFFFFF;
+  margin-right: 18px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 639px) {
+  .footer__link  {
+    display: block;
+    padding-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
   }
+}
