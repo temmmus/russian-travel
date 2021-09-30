@@ -8,6 +8,10 @@
   color: #FFFFFF;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 639px) {
   .footer__link  {
     display: block;
