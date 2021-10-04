@@ -2,5 +2,25 @@
   margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 2%;
+  row-gap: 48px;
+  column-gap: 40px;
 }  
+
+@media screen and (max-width: 1279px) {
+  .place  {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place  {
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place  {
+    gap: 32px;
+    margin-top: 25px;
+  }
+}
