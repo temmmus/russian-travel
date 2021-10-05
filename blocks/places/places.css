@@ -1,6 +1,6 @@
 .places {
   margin: auto;
-  margin-top: 12px;
+  margin-top: 92px;
   max-width: 984px;
   display: flex;
   flex-direction: column;
@@ -15,12 +15,14 @@
 
 @media screen and (max-width: 1023px) {
   .places  {
-    max-width: 90%;
+    max-width: 720px;
+    margin-top: 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places  {
     max-width: 100%;
+    margin-top: 64px;
   }
 }
